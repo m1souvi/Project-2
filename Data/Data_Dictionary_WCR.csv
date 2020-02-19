@@ -1,0 +1,46 @@
+column,type,label,description
+WCRNumber,text,WCR Number,Well Completion Report Number assinged by Online System for Well Completion Reports (OSWCR)
+LegacyLogNumber,text,Legacy Log Number,Legacy DWR log number
+RegionOffice,text,Region Office,DWR region office
+CountyName,text,County Name,County where the well is located
+LocalPermitAgency,text,Local Permit Agency,"Local regulatory authority over well construction, alteration, and destruction"
+PermitDate,text,Permit Date,Well permit date
+PermitNumber,text,Permit Number,Well permit number
+OwnerAssignedWellNumber,text,Owner Assigned Well Number,Owner assigned well number
+WellLocation,text,Well Location,Address where the well is located
+City,text,City,"City, town or subdivision where the well is located, or the community nearest to the location of the well"
+PlannedUseFormerUse,text,Planned Use/Former Use,"Planned well use, or former well use"
+DrillerName,text,Driller Name,Driller name
+DrillerLicenseNumber,text,Driller License Number,C-57 driller license number
+RecordType,text,Record Type,"Record type (New, Modification, Destruction)"
+DecimalLatitude,numeric,Decimal Latitude,"Decimal latitude, converted from text to number"
+DecimalLongitude,numeric,Decimal Longitude,"Decimal longitude, converted from text to number"
+MethodofDeterminationLL,text,Method of Determination LL,Method used to determine horizontal coordinates
+LLAccuracy,text,Lat/Long Accuracy,Accuracy of horizontal coordinates
+HorizontalDatum,text,Horizontal Datum,Datum of horizontal coordinates
+GroundSurfaceElevation,text,Ground Surface Elevation,Ground surface elevation
+ElevationAccuracy,text,Elevation Accuracy,Accuracy of elevation
+ElevationDeterminationMethod,text,Elevation Determination Method,Method used to determine elevation
+VerticalDatum,text,Vertical Datum,Datum of vertical coordinate/elevation
+Township,text,Township,Public Land Survey System township which well is located in
+Range,text,Range,Public Land Survey System range which well is located in
+Section,text,Section,Public Land Survey System section which well is located in
+BaselineMeridian,text,Baseline Meridian,Public Land Survey System meridian baseline which well is located in
+APN,text,APN,Assessor's parcel number which well is located on
+DateWorkEnded,timestamp,Date Work Ended,"Date on which work on well ended, converted from text to date"
+WorkflowStatus,text,Workflow Status,Well Completion Report OSWCR record status
+ReceivedDate,timestamp,Received Date,Date on which Well Completion Report was received
+TotalDrillDepth,text,Total Drill Depth,Total drill depth
+TotalCompletedDepth,numeric,Total Completed Depth,"Depth to which well was completed, converted from text to number"
+TopOfPerforatedInterval,text,Top of Perforated Interval,Top of perforated interval (depth)
+BottomofPerforatedInterval,text,Bottom of Perforated Interval,Bottom of perforated interval (depth)
+CasingDiameter,text,Casing Diameter,Diameter of the well casing
+DrillingMethod,text,Drilling Method,Drilling method
+Fluid,text,Fluid,Drilling fluid
+StaticWaterLevel,text,Static Water Level,"Depth of Static Water Level after the well was built (casing and screen have been installed), the well was developed and the water level was stabilized prior to the pump test. "
+TotalDrawDown,text,Total Draw Down,Total Drawdown. The depth to water at the end of the pump test is the “pumping level”. The difference in depth between the static level and pumping level is the “drawdown”
+TestType,text,Test Type,Test type (with pump or by airlift)
+PumpTestLength,text,Pump Test Length,Test length (hours)
+WellYield,text,Well Yield,"Estimated Yield. This may or may not represent the well’s long-term yield, but it gives an indication. The yield is the maximum rate at which the water can be discharged from the well and sustained for the period of time stated on the WCR form."
+WellYieldUnitofMeasure,text,Well Yield Unit of Measure,Well Yield Unit of Measure
+OtherObservations,text,Other Observations,Other Observations noted on Well Completion Report
