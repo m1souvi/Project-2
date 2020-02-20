@@ -1,0 +1,22 @@
+column,type,label,description
+STATION,text,Station,Unique Station Identifier (database key). For most stations this is the State Well Number. 
+SITE_CODE,text,Site Code,Location based 18 character alphanumeric code assigned to each well. Not available for all wells. 
+STNAME,text,Station Name,Descriptive name for the station.  
+WELL_NAME,text,Local Well Name,"Local well identification / local well name, number, or code"
+LATITUDE,numeric,Latitude,Latitude in decimal degrees.
+LONGITUDE,numeric,Longitude,The longitude in decimal degrees.
+LLDATUM,text,Latitude/Longitude Datum,Spatial system used for latitude / longitude. 
+POSACC,text,Positional Accuracy,Accuracy of the location data.
+ELEV,text,Elevation,Elevation of the station referenced to datum in Elevation Datum field.
+ELEVDATUM,text,Elevation Datum,The datum used for elevation
+ELEVACC,text,Elevation Accuracy,"Accuracy of the elevation.
+"
+COUNTY_NAME,text,County Name,California county name where station is located.  0 = Unknown.
+BASIN_CODE,text,Basin Subbasin Number,Basin Subbasin Number
+BASIN_NAME,text,Basin Subbasin Name,"Basin Subbasin Name. From ""i08 B118 CA GroundwaterBasins"" dataset. "
+WELL_DEPTH,text,Well Depth (feet bgs),Total depth of well casing or well open borehole in feet below ground surface.
+WELL_USE,text,Well Use Type,"Description of well use (Observation, Residential, etc.)"
+WELL_TYPE,text,Well Completion Type,"Single well, nested well, or other"
+WCR_NO,text,WCR Number,"DWR Well Completion Report Number (OSWCR Legacy Log Number). See ""i07 WellCompletionReports"" dataset."
+WDL,text,Water Data Library,Link to station information and plots available on Water Data Library website. 
+COMMENT,text,Comment,This field is used to store a description of the location or any other relevant comments.
