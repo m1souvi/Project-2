@@ -1,0 +1,23 @@
+
+The process:
+	1. Find data sources
+	2. Sample data files
+		a. continuousgroundwatermonthly.csv
+		b. CGWLM_gwlstations.csv
+	3. Data modeling
+		a. Inspect and design entity relationship diagram (ERD) on www.quickdatabasediagrams.com
+		b. Export .png of ERD
+	4. Data engineering
+		a. Create table schema for each CSV file.
+			i. Data type
+			ii. Primary key
+			iii. Foreign key
+		b. Data munging
+			i. Dropna rows from gwlevels
+			ii. Dropna columns from stations
+				1) Adjust table schema in pgAdmiin
+		c. Import CSV files into SQL tables
+			i. Output SQL file of table schemas
+	5. Data analysis
+		a. SQL queries
+			i. Output SQL file of queries
